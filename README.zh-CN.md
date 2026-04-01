@@ -12,7 +12,7 @@
 
 - 仓库地址：[harness-creator](https://github.com/Arthurescc/harness-creator)
 - 适用场景：coding agent、CLI runtime、tool orchestration、MCP assistant、planning/subagent 体系
-- 核心价值：把模糊的“做一个 agent”收束成真正可实施的架构、实施顺序和安全规则
+- 核心价值：把模糊的 “做一个 agent” 收束成真正可实施的架构、实施顺序和安全规则
 
 ### Agent Teams Creator
 
@@ -28,6 +28,16 @@
 - 快速找到适合自己的技能
 - 提高试用和安装意愿
 - 为后续继续扩展更多技能留出统一入口
+
+## 开发说明
+
+这些项目均为自研开发，并通过实际测试持续迭代，目标是提升：
+
+- 输出质量
+- 架构清晰度
+- 工程可实施性
+- 事实与推断边界
+- 安全与验证深度
 
 ## 安装方式
 
@@ -51,7 +61,7 @@ Windows 下把 `${HOME}` 换成 `%USERPROFILE%` 即可。
 
 ## 页面文件
 
-这个仓库还带了一个独立的 [index.html](index.html) 落地页，可以本地打开，也可以后续配合 GitHub Pages 做成在线导航页。
+这个仓库还带了一个独立的 [index.html](index.html) 落地页，可以本地打开，也可以继续通过 GitHub Pages 作为在线导航页使用。
 
 ## License
 

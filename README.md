@@ -12,7 +12,7 @@
 
 ### 1. Harness Creator
 
-Design safe, layered, source-backed agent harnesses.
+Design safe, layered, production-ready agent harnesses.
 
 - Repository: [harness-creator](https://github.com/Arthurescc/harness-creator)
 - Best for: coding agents, CLI runtimes, tool orchestration, MCP-enabled assistants, planning/subagent systems
@@ -20,7 +20,7 @@ Design safe, layered, source-backed agent harnesses.
 
 ### 2. Agent Teams Creator
 
-Analyze and design Claude Code-style agent team runtimes.
+Analyze and design protocol-driven agent team runtimes.
 
 - Repository: [agent-teams-creator](https://github.com/Arthurescc/agent-teams-creator)
 - Best for: coordinator/worker runtimes, task-board-driven multi-agent systems, mailbox protocols, verifier flows
@@ -30,7 +30,7 @@ Analyze and design Claude Code-style agent team runtimes.
 
 These skills are not generic prompt snippets. They are reusable, tested skill packages designed to improve how Codex structures analysis and design work.
 
-They were built from pressure-testing against public Claude Code reconstruction sources and then refined to improve:
+They were independently designed and developed, then refined through practical testing to improve:
 
 - output quality
 - architecture clarity
@@ -60,7 +60,7 @@ Restart Codex after installation so the skill list refreshes.
 
 ## Landing Page
 
-Open [index.html](index.html) locally, or publish this repository with GitHub Pages for a lightweight skill showcase.
+Open [index.html](index.html) locally, or use the GitHub Pages site for a lightweight skill showcase.
 
 ## Chinese Documentation
 
