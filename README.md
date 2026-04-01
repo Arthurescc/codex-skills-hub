@@ -1,0 +1,71 @@
+# Codex Skills Hub
+
+<p align="center">
+  <img src="assets/hub-icon.svg" alt="Codex Skills Hub icon" width="140" />
+</p>
+
+<p align="center">
+  A curated landing page for high-value Codex skills focused on agent architecture, team orchestration, and developer workflows.
+</p>
+
+## Featured Skills
+
+### 1. Harness Creator
+
+Design safe, layered, source-backed agent harnesses.
+
+- Repository: [harness-creator](https://github.com/Arthurescc/harness-creator)
+- Best for: coding agents, CLI runtimes, tool orchestration, MCP-enabled assistants, planning/subagent systems
+- Core value: turns fuzzy "build an agent" requests into concrete architecture, implementation order, and safety rules
+
+### 2. Agent Teams Creator
+
+Analyze and design Claude Code-style agent team runtimes.
+
+- Repository: [agent-teams-creator](https://github.com/Arthurescc/agent-teams-creator)
+- Best for: coordinator/worker runtimes, task-board-driven multi-agent systems, mailbox protocols, verifier flows
+- Core value: makes task board, mailbox, coordinator, and isolation boundaries explicit instead of collapsing them into vague swarm language
+
+## Why This Hub Exists
+
+These skills are not generic prompt snippets. They are reusable, tested skill packages designed to improve how Codex structures analysis and design work.
+
+They were built from pressure-testing against public Claude Code reconstruction sources and then refined to improve:
+
+- output quality
+- architecture clarity
+- implementation readiness
+- facts-vs-inference discipline
+- safety and verification depth
+
+## Quick Install
+
+### Harness Creator
+
+```bash
+git clone https://github.com/Arthurescc/harness-creator \
+  "${HOME}/.codex/skills/harness-creator"
+```
+
+### Agent Teams Creator
+
+```bash
+git clone https://github.com/Arthurescc/agent-teams-creator \
+  "${HOME}/.codex/skills/agent-teams-creator"
+```
+
+On Windows, replace `${HOME}` with `%USERPROFILE%`.
+
+Restart Codex after installation so the skill list refreshes.
+
+## Landing Page
+
+Open [index.html](index.html) locally, or publish this repository with GitHub Pages for a lightweight skill showcase.
+
+## Chinese Documentation
+
+See [README.zh-CN.md](README.zh-CN.md).
+
+## License
+
+MIT

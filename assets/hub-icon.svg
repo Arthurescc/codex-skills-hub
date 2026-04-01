@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Codex Skills Hub icon">
+  <defs>
+    <linearGradient id="hub-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="hub-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#hub-bg)" />
+  <rect x="88" y="104" width="336" height="304" rx="56" fill="#ffffff" opacity="0.08" />
+  <rect x="126" y="146" width="112" height="92" rx="24" fill="#2563eb" />
+  <rect x="274" y="146" width="112" height="92" rx="24" fill="#0f766e" />
+  <rect x="126" y="274" width="260" height="92" rx="24" fill="#111827" stroke="url(#hub-accent)" stroke-width="12" />
+  <path d="M182 206h76M318 206h24M182 320h148" stroke="#f8fafc" stroke-linecap="round" stroke-width="16" />
+</svg>
