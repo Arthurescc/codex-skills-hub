@@ -13,6 +13,7 @@
       --muted: #94a3b8;
       --blue: #2563eb;
       --teal: #0f766e;
+      --orange: #ea580c;
       --cyan: #67e8f9;
       --gold: #facc15;
       --mint: #a7f3d0;
@@ -103,7 +104,7 @@
 
     .cards {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 22px;
       margin-bottom: 30px;
     }
@@ -244,6 +245,12 @@
         grid-template-columns: 1fr;
       }
     }
+
+    @media (max-width: 1180px) {
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -264,6 +271,7 @@
       <div class="pill">Behavior-shaping</div>
       <div class="pill">Production-minded</div>
       <div class="pill">Installable today</div>
+      <div class="pill">Frontend design bridge</div>
     </div>
 
     <section class="cards">
@@ -316,6 +324,32 @@
         <div class="actions">
           <a class="btn primary" href="https://github.com/Arthurescc/agent-teams-creator">Open Repository</a>
           <a class="btn secondary" href="https://github.com/Arthurescc/agent-teams-creator#quick-start">Quick Start</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-head">
+          <img src="assets/stitch-icon.svg" alt="Stitch UI Bridge icon" />
+          <div>
+            <p class="eyebrow" style="color: #fdba74;">Design Skill</p>
+            <h2>Stitch UI Bridge</h2>
+          </div>
+        </div>
+        <p class="desc">
+          Send frontend design prompts from Codex, Claude Code, or Cursor into Stitch and get raw exported code back through a local browser bridge.
+        </p>
+        <ul class="list">
+          <li>Reuses a logged-in Stitch browser session through CDP without exposing private profile data in the public repo.</li>
+          <li>Tracks generation stages such as crafting, imagining, building the design system, and ready-to-export.</li>
+          <li>Supports an explicit premium path for <code>Thinking with 3.1 Pro</code> when the signed-in session has access.</li>
+        </ul>
+        <div class="compare">
+          <strong>Observed effect</strong>
+          Instead of vague "still waiting" automation, the bridge reports what Stitch is doing now and returns raw export code the caller can adapt downstream.
+        </div>
+        <div class="actions">
+          <a class="btn primary" style="background: linear-gradient(90deg, var(--orange), #f97316);" href="https://github.com/Arthurescc/stitch-ui-bridge">Open Repository</a>
+          <a class="btn secondary" href="https://github.com/Arthurescc/stitch-ui-bridge#quick-start">Quick Start</a>
         </div>
       </article>
     </section>

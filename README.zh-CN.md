@@ -20,6 +20,12 @@
 - 适用场景：coordinator/worker runtime、共享 task board、多 agent 协作协议、verifier 流程
 - 核心价值：明确拆开 task board、mailbox、coordinator、isolation 之间的边界，避免泛化 swarm 设计
 
+### Stitch UI Bridge
+
+- 仓库地址：[stitch-ui-bridge](https://github.com/Arthurescc/stitch-ui-bridge)
+- 适用场景：前端 UI 原型生成、Stitch 浏览器自动化、Codex/Claude Code/Cursor 设计链路、原始导出回传
+- 核心价值：把已登录的 Stitch 浏览器会话变成一个可复用、本地隐私安全、带阶段感知的设计后端
+
 ## 为什么要做这个导航页
 
 这些仓库不是普通 prompt 模板，而是经过测试和迭代的技能包。这个导航页的作用是：
@@ -38,6 +44,7 @@
 - 工程可实施性
 - 事实与推断边界
 - 安全与验证深度
+- 前端设计链路速度
 
 ## 安装方式
 
@@ -53,6 +60,13 @@ git clone https://github.com/Arthurescc/harness-creator \
 ```bash
 git clone https://github.com/Arthurescc/agent-teams-creator \
   "${HOME}/.codex/skills/agent-teams-creator"
+```
+
+### Stitch UI Bridge
+
+```bash
+git clone https://github.com/Arthurescc/stitch-ui-bridge \
+  "${HOME}/.codex/skills/stitch-ui-bridge"
 ```
 
 Windows 下把 `${HOME}` 换成 `%USERPROFILE%` 即可。

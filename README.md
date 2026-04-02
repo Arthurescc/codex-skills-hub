@@ -26,6 +26,14 @@ Analyze and design protocol-driven agent team runtimes.
 - Best for: coordinator/worker runtimes, task-board-driven multi-agent systems, mailbox protocols, verifier flows
 - Core value: makes task board, mailbox, coordinator, and isolation boundaries explicit instead of collapsing them into vague swarm language
 
+### 3. Stitch UI Bridge
+
+Bridge frontend design prompts from Codex, Claude Code, or Cursor into Stitch and get raw export code back.
+
+- Repository: [stitch-ui-bridge](https://github.com/Arthurescc/stitch-ui-bridge)
+- Best for: UI prototyping, frontend design generation, Stitch browser automation, raw export handoff, privacy-safe local bridge workflows
+- Core value: turns a logged-in Stitch browser session into a structured local design backend with stage-aware waiting and optional `Thinking with 3.1 Pro`
+
 ## Why This Hub Exists
 
 These skills are not generic prompt snippets. They are reusable, tested skill packages designed to improve how Codex structures analysis and design work.
@@ -37,6 +45,7 @@ They were independently designed and developed, then refined through practical t
 - implementation readiness
 - facts-vs-inference discipline
 - safety and verification depth
+- frontend design iteration speed
 
 ## Quick Install
 
@@ -52,6 +61,13 @@ git clone https://github.com/Arthurescc/harness-creator \
 ```bash
 git clone https://github.com/Arthurescc/agent-teams-creator \
   "${HOME}/.codex/skills/agent-teams-creator"
+```
+
+### Stitch UI Bridge
+
+```bash
+git clone https://github.com/Arthurescc/stitch-ui-bridge \
+  "${HOME}/.codex/skills/stitch-ui-bridge"
 ```
 
 On Windows, replace `${HOME}` with `%USERPROFILE%`.
